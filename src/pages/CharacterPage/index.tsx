@@ -40,7 +40,7 @@ export default function CharacterPage() {
     } finally {
       setIsLoading(false);
     }
-  }, [id]);
+  }, [id, dispatch]);
 
   useEffect(() => {
     getCharacterData();

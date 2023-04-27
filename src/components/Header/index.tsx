@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '/images/logo.svg';
 import { Button } from 'antd';
 import { ArrowLeftOutlined } from '@ant-design/icons';
+import logo from '../../images/logo.svg';
 
 export function HeaderContent({ back }: { back?: boolean }) {
   return (
